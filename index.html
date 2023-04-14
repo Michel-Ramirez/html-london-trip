@@ -8,26 +8,29 @@
     <meta name="description" content="Il mio viaggio a Londra">
     <meta name="author" content="Michel Ramirez">
     <link rel="icon" href="img/ico.png" type="img/png">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
     <title>Il mio viaggio a Londra</title>
 </head>
 <body>
     <!--titolo principale-->
-    <div class="center">
-        <header>
-            <h1>Il mio viaggio a Londra</h1>
-        </header>
-        <figure>
+    <header>
+        <h1>Il mio viaggio a Londra</h1>
+        <style>
+            figure.img{
+                margin: 0;
+            }
+        </style>
+        <figure class="img">
             <img src="img/pexels-bill-emrich-230794-0.jpg">
             <img src="img/pexels-bill-emrich-230794-1.jpg">
             <img src="img/pexels-bill-emrich-230794-2.jpg">
         </figure>
-        <hr>
+    </header>
+    <hr>
+    <main>
         <!-- Spese di viaggio-->
         <h2>Le mie spese</h2>
         <!-- tabella delle spese -->
-        <table class="table">
+        <table>
             <thead>
                 <tr>
                     <th>Numero</th>
@@ -59,48 +62,49 @@
             </tbody>
             <tfoot>
                 <tr>
-                    <td>Totale</td>
-                    <td></td>
-                    <td>360€</td>
+                    <th>Totale</th>
+                    <th></th>
+                    <th>360€</th>
                 </tr>
             </tfoot>
         </table>
         <hr>
         <!-- Cose da fare -->
         <h3>Cose da fare</h3>
-        <div class="container-list">
-            <ul class="lista">
-                <li>Visitare la Tower of London &cross;</li>
-                <li>Visitare Greenwich &check;</li>
-                <li>Ascoltare un artista di strada &check;</li>
-                <li>Manguare il tipico fish and chips inglese &cross;</li>
-            </ul>
-        </div>
+        <ul>
+            <li>Visitare la Tower of London <b>&cross;</b></li>
+            <li>Visitare Greenwich <b> &check;</b></li>
+            <li>Ascoltare un artista di strada <b>&check;</b></li>
+            <li>Manguare il tipico fish and chips inglese <b>&cross;</b></li>
+        </ul>
         <hr>
         <!-- infomrazioni finali utili -->
         <h3>Info utili:</h3>
-        <div class="container-list">
-            <ol class="lista">
-                <li>Numeri utili di emergenza</li>
-                <ul>
-                    <li><b>999</b> - Emergenza</li>
-                    <li><b>101</b> - Numero polizia</li>
-                    <li><b>111</b> - Numero assistenza medica</li>
-                </ul>
-                <li>Hotel</li>
-                <ul>
-                    <li><b>Nome hotel</b>- Buckingham Palace</li>
-                    <li><b>Indirizzo hotel</b> - Westminster, London SW1A 1AA, Regno Unito</li>
-                </ul>
-                <li>Aereo</li>
-                <ul>
-                    <li><b>Volo di Andata:</b> Y1234X, ore 9.30 da Milano Malpensa</li>
-                    <li><b>Volo di Ritorno:</b> Y1236X, ore 18.30 da Londra Heathrow</li>
-                </ul>
-            </ol>
-        </div>
+        <ol>
+            <li>Numeri utili di emergenza</li>
+            <ul>
+                <li><b>999</b> - Emergenza</li>
+                <li><b>101</b> - Numero polizia</li>
+                <li><b>111</b> - Numero assistenza medica</li>
+            </ul>
+            <li>Hotel</li>
+            <ul>
+                <li><b>Nome hotel</b>- Buckingham Palace</li>
+                <li><b>Indirizzo hotel</b> - Westminster, London SW1A 1AA, Regno Unito</li>
+            </ul>
+            <li>Aereo</li>
+            <ul>
+                <li><b>Volo di Andata:</b> Y1234X, ore 9.30 da Milano Malpensa</li>
+                <li><b>Volo di Ritorno:</b> Y1236X, ore 18.30 da Londra Heathrow</li>
+            </ul>
+        </ol>
         <hr>
-    </div>
-    
+    </main>
+    <footer>
+        <h3>Le mie foto</h3>
+        <a href="https://www.abta.com/sites/default/files/styles/large/public/media/uploads/london-400x400-compressor_0.jpg" target="_blank"><b>Tamigi</b></a>
+        <a href="https://imgc.allpostersimages.com/img/posters/evening-tower-bridge-and-river-thames-london_u-L-P2QVZJ0.jpg?artPerspective=n" target="_blank"><b>Tower Bridge</b></a>
+    </footer>
+
 </body>
 </html>
